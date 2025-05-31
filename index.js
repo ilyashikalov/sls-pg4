@@ -3,7 +3,7 @@ const sharp = require('sharp');
 async function cropImage(imageBase64, width, height) {
     try {
         const buffer = Buffer.from(imageBase64, 'base64');
-//
+
         const croppedBuffer = await sharp(buffer)
             .resize(width, height) 
             .toBuffer(); 
