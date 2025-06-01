@@ -2,8 +2,9 @@ const sharp = require('sharp');
 
 async function cropImage(imageBase64, width, height) {
     try {
+        // decode the image from base64
         const buffer = Buffer.from(imageBase64, 'base64');
-
+        // crop the image
         const croppedBuffer = await sharp(buffer)
             .resize(width, height) 
             .toBuffer(); 
