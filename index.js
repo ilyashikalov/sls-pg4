@@ -16,7 +16,7 @@ async function cropImage(imageBase64, width, height) {
         throw error;
     }
 }
-
+// entrypoint function
 module.exports.handler = async function (event, context) {
     return {
         content: await cropImage(event.content, event.width, event.height)
