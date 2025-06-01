@@ -18,7 +18,7 @@ on:
 
 env:
   FOLDER_ID: b1gsuimj95h9vl0j2f11
-  SA_ID: ajegot41f9ofbcmqpm3l
+  SA_ID: ajegce88ce1br4o3glna
   FUNCTION_NAME: crop-image-prod
   FUNCTION_RUNTIME: nodejs18
   FUNCTION_ENTRYPOINT: index.handler
