@@ -20,7 +20,7 @@ on:
 env:
   FOLDER_ID: b1gglm04p12mqvn207mq
   SA_ID: ajegot41f9ofbcmqpm3l
-  FUNCTION_NAME: crop-image-integration
+  FUNCTION_NAME: crop-image-prod
   FUNCTION_RUNTIME: nodejs18
   FUNCTION_ENTRYPOINT: index.handler
   FUNCTION_MEMORY: 128Mb
