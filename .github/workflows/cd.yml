@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  FOLDER_ID: b1gglm04p12mqvn207mq
+  FOLDER_ID: b1gsuimj95h9vl0j2f11
   SA_ID: ajegot41f9ofbcmqpm3l
   FUNCTION_NAME: crop-image-prod
   FUNCTION_RUNTIME: nodejs18
