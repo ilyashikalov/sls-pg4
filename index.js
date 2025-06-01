@@ -12,6 +12,7 @@ async function cropImage(imageBase64, width, height) {
         const croppedImageBase64 = croppedBuffer.toString('base64');
         return croppedImageBase64;
     } catch (error) {
+        // something went wrong
         console.error('Error cropping image:', error);
         throw error;
     }
